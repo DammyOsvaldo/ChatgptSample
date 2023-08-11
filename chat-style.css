@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* styling navbar */
+
+.row{
+    margin: 0 !important;
+}
+
+  .btn-sign2{
+     padding: 8px 22px;
+     background:  #FF4820;
+     color: #e4e2e2ed;
+     font-size: 15px;
+     border: none;
+  }
+/* styling navbar ends here */
+
+/* styling header-nav starts here */
+
+.header-nav{
+    background: linear-gradient(90deg, rgb(9, 35, 74), rgb(4, 12, 24));
+}
+
+.btn3{
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    background: #FF4820;
+    font-size: 15px;
+    width: 6rem;
+    height: 2.7rem;
+    border: none;
+   
+}
+
+.cta-section{
+    margin-top: 50px;
+    
+}
+
+.cta h1{
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cta p{
+    color: #81AFDD;
+    word-wrap:normal;
+}
+
+#inputYourEmail{
+    border-radius: 5px 0px 0px 5px;
+    width: 20rem;
+    height: 2.7rem;
+    background: #052D56;
+    border: none;
+}
+
+::placeholder{
+    color: #3D6184;
+    font-size: 12px;
+}
+
+.group{
+    display: flex;
+}
+
+
+.group img{
+    margin-right: 2px;
+   
+}
+
+.group p{
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.socials img{
+    margin-left: 35% ;
+    margin-top: 40px;
+}
+
+.img-fluid{
+    max-width: 120%;
+    height: auto;
+}
+
+/* styling header-nav ends here */
+
+
+.my-apps, .hero-section, .future-cta, .card-section{
+    background-image: linear-gradient(45deg, rgb(4, 12, 24), rgb(4, 12, 24));
+}
+
+/* styling gpt-3 header-nav starts here */
+
+.container{
+    background-image: linear-gradient(60deg, rgb(4, 44, 84), rgb(15, 66, 121));
+    margin-top: 80px;
+    margin-bottom: 50px; 
+}
+
+.hello{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mini-p p, .mo p{
+    color: #81AFDD;
+    font-size: 14px;
+}
+
+.mo p{
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+
+.mani-p{
+    color: #FF8A71;
+    margin-top: 65px;
+    margin-bottom: 7px;
+}
+
+.hello h3{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.hello h2{
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+/* styling gpt-3 header-nav ends here */
+
+/* styling future-cta starts here */
+
+.future-text h2{
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.future-text p{
+    color: #FF8A71;
+    font-size: 14px;
+}
+
+.hello1{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.hello1 p{
+    color: #81AFDD;
+    font-size: 12px;
+    margin-top: 5px;
+    
+}
+
+.hello1 h3{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* styling future-cta ends here */
+
+/* styling my-apps starts here */
+
+.access{
+    margin-top: 70%;
+ }
+
+ .app{
+    color: #FF8A71;
+ }
+
+ .apps{
+    color: #71E5FF;
+ }
+
+.yet{
+    color: #81AFDD;
+}
+
+.access h4{
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* styling my-apps ends here */
+
+/* styling hero-section starts here */
+
+.btn4{
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.ready{
+    color: #000000;
+    padding: 20px 20px;
+    margin-left: 0px;
+}
+
+.snd-btn{
+    color: #ffffff;
+    padding: 6px 23px;
+    border-radius: 40px;
+    background: #000;
+    margin: 35px 20px;
+    flex-shrink: 0;
+    border: none;
+
+}
+
+.box{
+    border: none;
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    display: flex;
+    border-radius: 10.724px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 13px;
+}
+
+/* styling hero-section ends here */
+
+/* styling card-section starts here */
+
+.card-section h2{
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 60px 0;
+    font-size: ;
+    font-family: ;
+}
+
+
+.card-body{
+    background: #042C54;
+}
+
+.card{
+    background: rgb(4, 12, 24) !important;
+    
+}
+
+.card-height{
+    margin-bottom: 234.5px;
+}
+
+/* styling card-section ends here */
+
+/* styling MAJOR starts here */
+
+.major, .finisher{
+    background: #031B34 !important;
+}
+
+.background{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.background h1{
+    background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+.btn-sign5{
+    padding: 8px 22px;
+    background:  #031B34;
+    color: #e4e2e2ed;
+    font-size: 15px;
+    border: 1px solid #FFF;
+    margin-bottom: 80px;
+}
+
+.foot-heading{
+       font-size: 15px !important;
+       
+}
+
+.list-unstyled li, .footer-p{
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+.footer-p{
+    margin-left: 40px;
+}
+
+.bold{
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+/* styling MAJOR ends here */
+
+
+@media screen and (max-width: 992px){
+
+  
+
+    .btn3{
+        margin-top: 20px;
+        margin-left: 80px;
+        width: 50%;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .raba{
+        margin-top: 90px;
+    }
+
+    .access{
+        margin-top: 20px;
+    }
+
+    .hello1 p{
+         margin-left: 30px;
+         word-break: initial;
+    }
+
+    .mini-p p{
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+
+    .lala{
+        margin-left: -7000%;
+    }
+
+   .hello mo{
+    display: grid;
+   }
+
+   .cta h1, .cta p{
+    text-align: center;
+   
+   }
+}
