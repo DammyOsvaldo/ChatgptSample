@@ -47,12 +47,13 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-right: 70px;
 
 }
 
 .cta p{
     color: #81AFDD;
-    word-wrap:normal;
+    padding-right: 70px;
 }
 
 #inputYourEmail{
@@ -89,10 +90,7 @@
     margin-top: 40px;
 }
 
-.img-fluid{
-    max-width: 120%;
-    height: auto;
-}
+
 
 /* styling header-nav ends here */
 
@@ -325,7 +323,7 @@
 }
 
 .footer-p{
-    margin-left: 40px;
+    padding-right: 40px;
 }
 
 .bold{
@@ -356,14 +354,14 @@
 
     #inputYourEmail{
         width: 100%;
-        margin-left: 40px ;
+        margin-left: 35px ;
+        border-radius: 5px;
     }
 
     .btn3{
         margin-top: 20px;
-        margin-left: 80px;
-        width: 50%;
-        border-radius: 5px 5px 5px 5px;
+        margin-left: 107px;
+        border-radius: 5px;
     }
 
     .btn4{
@@ -397,38 +395,46 @@
         margin-top: -20px;
     }
 
-    .lala{
-        margin-left: -7000%;
-    }
+   
 
    .hello mo{
     display: grid;
    }
 
-   .cta h1, .cta p{
+   .cta h1{
     text-align: center;
+    padding-right: 0px;
+    font-size: 25px;
    
    }
 
-   .footer-p{
+   .cta p{
     text-align: center;
+    padding-right: 0px;
+    font-size:
+   
+   }
+
+   .img-fluid{
+    margin-top: 50px;
+   }
+
+   .bold{
+       margin-right: 0;
    }
 
    .foot-heading{
-     margin-right: 80px;
-     font-size: 30px !important;
-    
-   }
-
-   .match{
-      margin-bottom: 20px !important;
-      margin-right: 30px;
+     font-size: 25px !important;
    }
 
    .btn4{
     margin-top: 0px;
    }
 
+
+   .footer-p{
+    padding-right: 0px;
+}
 
 }
 
@@ -441,5 +447,15 @@
 
     .cta-section{
         margin-top: 15%;
+    }
+
+    .cta h1{
+       
+        padding-right: 70px;
+    
+    }
+    
+    .cta p{
+        padding-right: 70px;
     }
 }
