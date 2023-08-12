@@ -1,8 +1,4 @@
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 /* styling navbar */
 
@@ -21,7 +17,7 @@
 
 /* styling header-nav starts here */
 
-.header-nav{
+{
     background: linear-gradient(90deg, rgb(9, 35, 74), rgb(4, 12, 24));
     background-size: cover;
 }
@@ -48,12 +44,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-right: 70px;
-
+    font-family: Manrope;
+    font-weight: 800;
 }
 
 .cta p{
     color: #81AFDD;
     padding-right: 70px;
+    font-family: Manrope;
+    font-weight: 400;
 }
 
 #inputYourEmail{
@@ -82,7 +81,9 @@
 .group p{
     color: #ffffff;
     font-size: 10px;
-    margin-top: 2px;
+    margin-top: 6px;
+    font-family: Manrope;
+    font-weight: 500;
 }
 
 .socials img{
@@ -95,7 +96,7 @@
 /* styling header-nav ends here */
 
 
-.my-apps, .hero-section, .future-cta, .card-section{
+.my-apps, .hero-section, .future-cta, .card-section, .header-nav{
     background-image: linear-gradient(45deg, rgb(4, 12, 24), rgb(4, 12, 24));
 }
 
@@ -113,25 +114,52 @@
     
 }
 
-.mini-p p, .mo p{
+.mini-p p{
     color: #81AFDD;
     font-size: 14px;
+    font-family: Manrope;
+    font-weight: 500;
+
 }
 
+
 .mo p{
+    color: #81AFDD;
+    font-size: 14px;
     margin-bottom: 40px;
-    margin-right: 30px;
+    margin-right: 35px;
+    margin-top: 40px;
+    font-family: Manrope;
+    font-weight: 500;
+}
+
+.mani h2{
+    font-family: Manrope;
+    font-weight: 800;
+
 }
 
 .mani-p{
     color: #FF8A71;
     margin-top: 65px;
     margin-bottom: 7px;
+    font-family: Manrope;
+    font-weight: 500;
+
 }
+
+.mini1 p{
+    font-family: Manrope;
+    font-weight: 800;
+}
+
+
 
 .hello h3{
     color: #ffffff;
     font-size: 20px;
+    font-family: Manrope;
+    font-weight: 800;
 }
 
 .hello h2{
@@ -141,6 +169,9 @@
     -webkit-text-fill-color: transparent;
     margin-top: 60px;
     margin-bottom: 70px;
+    font-family: Manrope;
+    font-weight: 800;
+
 }
 
 /* styling gpt-3 header-nav ends here */
@@ -154,11 +185,17 @@
     -webkit-text-fill-color: transparent;
     margin-top: 80px;
     margin-bottom: 70px;
+    font-family: Manrope;
+    font-weight: 800;
+    padding-right: 85px;
+
 }
 
 .future-text p{
     color: #FF8A71;
     font-size: 14px;
+    font-family: Manrope;
+    font-weight: 500;
 }
 
 .hello1{
@@ -172,12 +209,19 @@
     color: #81AFDD;
     font-size: 12px;
     margin-top: 5px;
+    width: 60%;
+    font-family: Manrope;
+    font-weight: 500;
     
 }
 
 .hello1 h3{
     color: #ffffff;
     font-size: 14px;
+    font-family: Manrope;
+    font-weight: 800;
+    
+    
 }
 
 /* styling future-cta ends here */
@@ -267,6 +311,7 @@
     font-size: ;
     font-family: ;
 }
+
 
 
 .card-body{
@@ -377,25 +422,33 @@
         
     }
 
+    .ready{
+        padding: 0;
+    }
+
     .raba{
         margin-top: 90px;
+        margin-left: 30px;
     }
 
     .access{
         margin-top: 20px;
     }
 
-    .hello1 p{
-         margin-left: 30px;
-         word-break: initial;
-    }
+    
 
     .mini-p p{
         margin-left: 20px;
         margin-top: -20px;
     }
 
-   
+    .future-text h2{
+        padding: 0;
+    }
+
+    .hello1 p{
+       width: 50%;
+    }   
 
    .hello mo{
     display: grid;
