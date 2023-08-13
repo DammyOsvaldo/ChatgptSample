@@ -86,11 +86,20 @@
     font-weight: 500;
 }
 
-.socials img{
-    margin-left: 35% ;
-    margin-top: 40px;
+.socials {
+    margin-left: 35%;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    
+
 }
 
+.socials img{
+    
+    margin-right: 10%;
+    
+}
 
 
 /* styling header-nav ends here */
@@ -178,6 +187,10 @@
 
 /* styling future-cta starts here */
 
+.future-cta{
+   
+}
+
 .future-text h2{
     background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
     background-clip: text;
@@ -188,7 +201,7 @@
     font-family: Manrope;
     font-weight: 800;
     padding-right: 85px;
-
+    
 }
 
 .future-text p{
@@ -234,14 +247,23 @@
 
  .app{
     color: #FF8A71;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 14px;
  }
 
  .apps{
     color: #71E5FF;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 14px;
  }
 
 .yet{
     color: #81AFDD;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .access h4{
@@ -249,11 +271,11 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: Manrope;
+    font-weight: 800;
 }
 
-.raba{
-    margin-top: 30px;
-}
+
 
 /* styling my-apps ends here */
 
@@ -267,10 +289,18 @@
 }
 
 
-.ready{
-    color: #000000;
-    padding: 20px 20px;
-    margin-left: 0px;
+.ready p{
+    color: #0E0E0E;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+
+.ready h6{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 .snd-btn{
@@ -279,9 +309,10 @@
     border-radius: 40px;
     background: #000;
     margin: 35px 20px;
-    flex-shrink: 0;
     border: none;
-
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .box{
@@ -308,14 +339,26 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 60px 0;
-    font-size: ;
-    font-family: ;
+    font-family: Manrope;
+    font-weight: 800;
 }
 
 
 
 .card-body{
     background: #042C54;
+}
+
+.card-body h6{
+    font-family: Manrope;
+    font-weight: 800;
+}
+
+.card-title{
+   
+    font-family: Manrope;
+    font-size: 11.649px;
+    font-weight: 700;
 }
 
 .card{
@@ -346,6 +389,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 40px;
+    text-align: center;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 40px;
 }
 
 .btn-sign5{
@@ -355,38 +402,59 @@
     font-size: 15px;
     border: 1px solid #FFF;
     margin-bottom: 80px;
+    font-family: Manrope;
+    font-weight: 400;
 }
 
 .foot-heading{
        font-size: 15px !important;
+       font-family: Manrope;
+       font-weight: 800;
        
 }
 
 .list-unstyled li, .footer-p{
     margin-top: 18px;
     font-size: 12px;
+    font-family: Manrope;
+    font-weight: 500;
 }
 
 .footer-p{
     padding-right: 40px;
+    font-family: Manrope;
+    font-weight: 400;
 }
 
 .bold{
     font-size: 20px !important;
-    font-weight: bold;
+    font-family: Manrope;
+    font-weight: 800;
 }
+
+.raba{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
 
 /* styling MAJOR ends here */
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 654px){
     .hello{
         flex-direction: column;
     }
 
     #inputYourEmail{
         
-        margin-left: 5px ;
+        #inputYourEmail {
+            margin-left: 0;
     }
+
+    .mani-p{
+        margin-left: 18px;
+    }
+    
 }
 
 .mani-p{
@@ -421,6 +489,11 @@
         margin: 10px 0;
         
     }
+
+    .group img{
+    margin-top: 7px;
+   
+}
 
     .ready{
         padding: 0;
@@ -512,3 +585,35 @@
         padding-right: 70px;
     }
 }
+
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    .cta h1{
+        font-size: 30px;
+    }
+
+    #inputYourEmail{
+      margin-left: 200px !important;
+      border-radius: 5px 0px 0px 5px;
+    }
+
+    .btn3{
+        margin-left: 0px;
+        margin-top: 0;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .group img{
+        margin-left: 20%;
+    }
+
+    .group p{
+        margin-top: 15px;
+    }
+
+   
+ 
+}
+ /* CSS styles specific to iPad Air portrait mode */
