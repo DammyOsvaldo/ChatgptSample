@@ -1,5 +1,12 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+
+html,body{
+    overflow-x: hidden;
+  }
 /* styling navbar */
 
 .row{
@@ -61,10 +68,11 @@
     height: 2.7rem;
     background: #052D56;
     border: none;
+    
 }
 
 ::placeholder{
-    color: #3D6184;
+    color: #FF4820;
     font-size: 12px;
 }
 
@@ -87,7 +95,7 @@
 }
 
 .socials {
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 50px;
     display: flex;
     text-align: center;
@@ -105,8 +113,22 @@
 /* styling header-nav ends here */
 
 
-.my-apps, .hero-section, .future-cta, .card-section, .header-nav{
+.my-apps,.card-section, .hero-section{
     background-image: linear-gradient(45deg, rgb(4, 12, 24), rgb(4, 12, 24));
+}
+
+.future-cta{
+    background-image: linear-gradient(to right, rgb(7, 50, 95), rgb(4, 12, 24));
+}
+
+.future-cta{
+    background-image: linear-gradient(45deg, rgb(4, 12, 24), rgb(4, 12, 24));
+}
+
+.header-nav{
+    border-radius: 3px;
+background: #002853;
+filter: blur(0px);
 }
 
 /* styling gpt-3 header-nav starts here */
@@ -128,7 +150,7 @@
     font-size: 14px;
     font-family: Manrope;
     font-weight: 500;
-
+    padding-right: 70px !important;
 }
 
 
@@ -136,7 +158,7 @@
     color: #81AFDD;
     font-size: 14px;
     margin-bottom: 40px;
-    margin-right: 35px;
+   padding-right: 50px;
     margin-top: 40px;
     font-family: Manrope;
     font-weight: 500;
@@ -149,12 +171,17 @@
 }
 
 .mani-p{
-    color: #FF8A71;
+    color: #FF8A71 ;
     margin-top: 65px;
     margin-bottom: 7px;
     font-family: Manrope;
     font-weight: 500;
 
+}
+
+.mani-p a{
+    color: #FF8A71 !important;
+    
 }
 
 .mini1 p{
@@ -294,13 +321,16 @@
     font-family: Manrope;
     font-size: 12px;
     font-weight: 500;
-   
+    text-align: left;
+    padding-left: 50px !important;
+    margin-top: 10px;
 }
 
 .ready h6{
     font-family: Manrope;
     font-size: 18px;
     font-weight: 800;
+    padding-left: 50px !important;
 }
 
 .snd-btn{
@@ -367,7 +397,12 @@
 }
 
 .card-height{
-    margin-bottom: 234.5px;
+    margin-bottom: 195px;
+}
+
+.arti a{
+    color: #ffffff !important;
+    font-size: 10px;
 }
 
 /* styling card-section ends here */
@@ -378,10 +413,7 @@
     background: #031B34 !important;
 }
 
-.background{
-    text-align: center;
-    margin-top: 90px;
-}
+
 
 .background h1{
     background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
@@ -393,6 +425,8 @@
     font-family: Manrope;
     font-weight: 800;
     font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
 }
 
 .btn-sign5{
@@ -404,13 +438,19 @@
     margin-bottom: 80px;
     font-family: Manrope;
     font-weight: 400;
+    margin-left: 40% !important;
 }
 
 .foot-heading{
        font-size: 15px !important;
        font-family: Manrope;
        font-weight: 800;
+       margin-right: 20px;
        
+}
+
+.foot-heading h5{
+     text-align: right !important;
 }
 
 .list-unstyled li, .footer-p{
@@ -420,10 +460,12 @@
     font-weight: 500;
 }
 
+
 .footer-p{
     padding-right: 40px;
     font-family: Manrope;
     font-weight: 400;
+    text-align: left;
 }
 
 .bold{
@@ -434,32 +476,153 @@
 
 .raba{
     margin-top: 90px;
-    margin-left: 30px;
+    
 }
-
 
 /* styling MAJOR ends here */
 
-@media screen and (max-width: 654px){
+
+/*toggle */
+
+.animated-icon1,  .animated-icon2{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 5px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg); 
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    border-radius: none !important;
+  }
+  
+  .animated-icon1 span, .animated-icon2 span{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  
+  .animated-icon1 span {
+    background: #ffffff;
+  }
+  
+  .animated-icon2 span {
+    background:  #FF8A71 !important;
+  
+  }
+
+  
+  
+  .animated-icon1 span:nth-child(1), .animated-icon2 span:nth-child(1){
+   top: 0px;
+  }
+  
+  .animated-icon1 span:nth-child(2),  .animated-icon2 span:nth-child(2){
+    top: 10px;
+  }
+  
+  .animated-icon1 span:nth-child(3), .animated-icon2 span:nth-child(3){
+    top: 20px;
+  }
+  
+  .animated-icon1.open span:nth-child(1),  .animated-icon2.open span:nth-child(1){
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  
+  .animated-icon1.open span:nth-child(2), .animated-icon2.open span:nth-child(2){
+    opacity: 0;
+    left: -60px;
+  }
+  
+  .animated-icon1.open span:nth-child(3), .animated-icon2.open span:nth-child(3){
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* toggle */
+
+@media screen and (max-width: 654px) {
+
     .hello{
         flex-direction: column;
     }
-
-    #inputYourEmail{
-        
-        #inputYourEmail {
-            margin-left: 0;
+ 
+     #inputYourEmail {
+        margin-left: 0;
     }
 
     .mani-p{
         margin-left: 18px;
     }
+
+    .socials{
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .cta p{
+        padding-right: 0px;
+    }
     
+    .foot-head {
+        text-align: left;
+    }
+
+    .btn-sign5{
+        margin-left: 10px !important;
+    }
 }
 
 .mani-p{
     margin-left: 18px;
 }
+
+.finisher h4{
+ text-align: left;
+}
+
+.mini-p p{
+    padding-right: 0;
+}
+
 
 
 
@@ -467,13 +630,11 @@
 
     #inputYourEmail{
         width: 100%;
-        margin-left: 35px ;
+        margin-left: px ;
         border-radius: 5px;
     }
 
     .btn3{
-        margin-top: 20px;
-        margin-left: 107px;
         border-radius: 5px;
     }
 
@@ -499,9 +660,12 @@
         padding: 0;
     }
 
+    .ready h6{
+         padding-left: 0 !important;
+    }
+
     .raba{
         margin-top: 90px;
-        margin-left: 30px;
     }
 
     .access{
@@ -528,18 +692,12 @@
    }
 
    .cta h1{
-    text-align: center;
     padding-right: 0px;
     font-size: 25px;
    
    }
 
-   .cta p{
-    text-align: center;
-    padding-right: 0px;
-    font-size:
-   
-   }
+
 
    .img-fluid{
     margin-top: 50px;
@@ -558,9 +716,56 @@
    }
 
 
-   .footer-p{
-    padding-right: 0px;
-}
+  .foot-heading, .list-unstyled li {
+    text-align: left !important;
+  }
+
+
+.collapsible {
+    background-color: #031B34;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    
+   
+  }
+
+  .content {
+    padding: 0 18px;
+    background-color:  #031B34;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .collapsible:after {
+    content: '\002B'; /* Unicode character for "plus" sign (+) */
+    font-size: 33px;
+    
+    color:  #F49867;
+    float: right;
+    margin-left: 8px;
+   
+  }
+
+  
+  
+  .active:after {
+    content: "\2212"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .background, .background h1{
+     text-align: left !important;
+     margin-left: 0px;
+  }
+
+
+  
 
 }
 
@@ -592,16 +797,33 @@
 and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .cta h1{
         font-size: 30px;
+       
+    }
+    
+     
+    .future-text h2{
+        padding-right: 70px;
+    }
+
+    .mini-p p{
+        padding-right: 100px;
+        margin-left: 100px;
     }
 
     #inputYourEmail{
-      margin-left: 200px !important;
+      margin-left: 50px !important;
       border-radius: 5px 0px 0px 5px;
+      width: 30em;
+      margin-top: 20px;
+    }
+
+    .img-fluid{
+        margin-left: 50px;
     }
 
     .btn3{
         margin-left: 0px;
-        margin-top: 0;
+        margin-top: 20px;
         border-radius: 0px 5px 5px 0px;
     }
 
@@ -612,8 +834,28 @@ and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     .group p{
         margin-top: 15px;
     }
-
-   
  
+
+    .ready p{
+        padding-left: 255px !important;
+    }
+
+    .finisher h4 {
+        text-align: center;
+}
+
+.footer-p{
+    padding-left: 30% !important;
+}
+
+.background h1{
+    text-align: center !important;
+    margin-left: 10px;
+}
+
+.btn-sign5{
+    margin-left: 40%;
+}
+
 }
  /* CSS styles specific to iPad Air portrait mode */
