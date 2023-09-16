@@ -22,10 +22,7 @@ html,body{
 
 /* styling header-nav starts here */
 
-{
-    background: linear-gradient(90deg, rgb(9, 35, 74), rgb(4, 12, 24));
-    background-size: cover;
-}
+
 
 .btn3{
     color: #ffffff;
@@ -623,7 +620,7 @@ html,body{
     }
 
     .btn3{
-        border-radius: 5px;
+        border-radius: 0px 5px 5px 0px;
     }
 
     .btn4{
