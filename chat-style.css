@@ -1,6 +1,4 @@
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 
@@ -68,6 +66,8 @@ html,body{
     height: 2.7rem;
     background: #052D56;
     border: none;
+    color: #ffffff  Dark
+    rgb(47, 24, 147);
     
 }
 
@@ -117,19 +117,19 @@ html,body{
     background-image: linear-gradient(45deg, rgb(4, 12, 24), rgb(4, 12, 24));
 }
 
-.future-cta{
-    background-image: linear-gradient(to right, rgb(7, 50, 95), rgb(4, 12, 24));
+.header-nav{
+    background-image: linear-gradient(to bottom, rgb(7, 50, 95), rgb(4, 12, 24));
 }
 
-.future-cta{
+.nav-nav{
+    background-color:rgb(7, 50, 95) ;
+}
+
+.future-cta, .gpt-3{
     background-image: linear-gradient(45deg, rgb(4, 12, 24), rgb(4, 12, 24));
 }
 
-.header-nav{
-    border-radius: 3px;
-background: #002853;
-filter: blur(0px);
-}
+
 
 /* styling gpt-3 header-nav starts here */
 
@@ -137,6 +137,7 @@ filter: blur(0px);
     background-image: linear-gradient(60deg, rgb(4, 44, 84), rgb(15, 66, 121));
     margin-top: 80px;
     margin-bottom: 50px; 
+    
 }
 
 .hello{
@@ -472,6 +473,7 @@ filter: blur(0px);
     font-size: 20px !important;
     font-family: Manrope;
     font-weight: 800;
+    
 }
 
 .raba{
@@ -565,18 +567,6 @@ filter: blur(0px);
 
  
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* toggle */
 
 @media screen and (max-width: 654px) {
@@ -622,8 +612,6 @@ filter: blur(0px);
 .mini-p p{
     padding-right: 0;
 }
-
-
 
 
 @media screen and (max-width: 992px){
@@ -696,8 +684,6 @@ filter: blur(0px);
     font-size: 25px;
    
    }
-
-
 
    .img-fluid{
     margin-top: 50px;
